@@ -16,7 +16,6 @@ The regex looks like this:
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
@@ -30,29 +29,23 @@ The regex looks like this:
 
 
 ### Anchors
-
-they match a position before or after characters:
-
-
-    
-
-### Quantifiers
+ <
+They match a position before or after characters:
 
 
+    ### Quantifiers
 
-
-### Grouping Constructs
-
+Quantifiers match a number of instances of a character, group, or character class in a string.
 
 
 ### Bracket Expressions
+(.*?)
+Brackets or round perenthese create capturin group. 
 
 ### Character Classes
 
-### The OR Operator
+Match  only one out of several charcters. 
 
-### Flags
-
-### Character Escapes
 
 ## Author
+
